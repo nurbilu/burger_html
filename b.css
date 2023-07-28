@@ -1,1 +1,36 @@
-image{width: 450; height: 450;}
+body {background-color: lightorange;
+    text-align: center;
+    font-family: "New Times Roman", Times, serif;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  img {
+    width: 450px;
+    height: 450px;
+  }
+  
+  span.price {
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
