@@ -1,7 +1,7 @@
 body {
   background-color: rgb(255, 211, 128);
   text-align: center;
-  font-family: "New Times Roman", Times, serif; 
+  font-family: "New Times Roman", Times, serif;
 }
 
 h1 {
@@ -30,8 +30,26 @@ img {
 
 span.price {
   color: black;
-  background-color: white;
+  background-color: rgb(255, 131, 110);
   padding: 5px;
-  border-radius: 5px; text-align: unset;
+  border-radius: 5px;
+  text-align: unset;
 }
 
+.select-burger {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 250px;
+  height: 50px;
+}
+
+
+.select-shok {
+  border: none;
+  appearance: none;
+  padding: 0px 30px 0px 15px;
+  width: 100%;
+  color: rgb(220, 21, 21);
+  background-color: rgb(2, 51, 49);
+}
